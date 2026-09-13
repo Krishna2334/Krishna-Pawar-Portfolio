@@ -1,235 +1,943 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Krishna Pawar — DevOps & Cloud portfolio">
-<title>Krishna Pawar | DevOps & Cloud</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Krishna Pawar — Java Developer, AWS, DevOps and Cloud enthusiast portfolio"
+  >
+
+  <meta
+    name="keywords"
+    content="Krishna Pawar, Java Developer, AWS, DevOps, Cloud, Networking, CI/CD, Docker, Kubernetes"
+  >
+
+  <meta name="author" content="Krishna Pawar">
+
+  <title>Krishna Pawar | Java • AWS • DevOps</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div>
-<header class="navbar">
-  <a class="logo" href="#home"><span>KP</span></a>
-  <button class="hamburger" aria-label="Menu">☰</button>
-  <nav>
-    <a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a>
-    <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
-  </nav>
-</header>
 
-<main>
-<section id="home" class="hero">
-  <div class="hero-text">
-    <p class="mini">DEVOPS & CLOUD ENTHUSIAST</p>
-    <h1>Hi, I'm <strong>Krishna Pawar</strong></h1>
-    <p class="subtitle">DevOps & Cloud Engineer • AWS • Docker • Kubernetes • CI/CD • Terraform</p>
-    <p class="intro">I build reliable deployment workflows, automate infrastructure, and turn cloud technologies into practical, scalable solutions.</p>
-    <div class="buttons"><a class="btn primary" href="#contact">Contact Me</a><a class="btn outline" href="Krishna_Pawar_Resume.pdf" download>View / Download Resume</a></div>
-    <div class="links"><a href="https://github.com/Krishna2334" target="_blank">GitHub ↗</a><a href="https://www.linkedin.com/in/krishna-pawar-0115292b4/" target="_blank">LinkedIn ↗</a><a href="mailto:pawarkrishna2334@gmail.com">Email ↗</a></div>
-  </div>
-  <div class="hero-photo">
-    <div class="photo-ring"></div><img src="krishna-pawar.jpg" alt="Krishna Pawar">
-    <div class="photo-badge"><span>☁</span><b>AWS</b><small>Cloud & DevOps</small></div>
-  </div>
-</section>
+  <!-- Background -->
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
 
-<section id="about" class="section about">
-  <div class="section-head"><span>01</span><h2>About</h2></div>
-  <div class="about-box">
-    <div><h3>Building, automating & learning.</h3><p>DevOps and Cloud enthusiast with hands-on exposure to AWS, Docker, Kubernetes, CI/CD pipelines, GitHub Actions, Terraform and Linux.</p><p>I enjoy solving real-world technical problems, improving deployment processes, and learning modern cloud-native technologies.</p></div>
-    <div class="about-points"><div>⚙️ <b>Automation</b><small>CI/CD & deployment workflows</small></div><div>☁️ <b>Cloud</b><small>AWS infrastructure & services</small></div><div>🐳 <b>Containers</b><small>Docker & Kubernetes</small></div></div>
-  </div>
-</section>
 
-<section id="experience" class="section">
-  <div class="section-head"><span>02</span><h2>Experience</h2></div>
-  <div class="experience-card">
-    <div class="exp-icon">S</div>
-    <div class="exp-main"><div class="exp-title"><h3>DevOps Training Internship Trainee</h3><span>Oct 2025 – Mar 2026</span></div><h4>Skillected Edu Pvt. Ltd. · Pune</h4><p>Completed a 6-month training and internship with hands-on exposure to DevOps fundamentals, CI/CD pipelines, Git version control, cloud basics, automation, build and deployment workflows.</p><div class="tags"><span>Git</span><span>CI/CD</span><span>Cloud</span><span>Automation</span><span>DevOps</span></div></div>
-  </div>
-</section>
+  <!-- ================= NAVBAR ================= -->
 
-<section id="skills" class="section">
-  <div class="section-head"><span>03</span><h2>Skills</h2></div>
-  <div class="skill-layout">
-    <div class="skill-card"><h3>Cloud & DevOps</h3><div class="skill-icons"><div>☁️<b>AWS</b></div><div>🐳<b>Docker</b></div><div>⚙️<b>Kubernetes</b></div><div>🏗️<b>Terraform</b></div><div>🔁<b>GitHub Actions</b></div><div>🐧<b>Linux</b></div></div></div>
-    <div class="skill-card"><h3>Programming</h3><div class="pill-list"><span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>Bash</span></div><h3 class="second">Web & Database</h3><div class="pill-list"><span>HTML</span><span>CSS</span><span>MySQL</span></div></div>
-    <div class="skill-card"><h3>Core Knowledge</h3><div class="pill-list"><span>OOP</span><span>DSA</span><span>Computer Networking</span><span>DBMS</span><span>Operating System</span></div><div class="score"><b>75+</b><span>LeetCode Problems Solved</span></div></div>
-  </div>
-</section>
+  <header class="navbar">
 
-<section id="projects" class="section">
-  <div class="section-head">
-    <span>04</span>
-    <h2>Projects</h2>
-  </div>
+    <a class="logo" href="#home">
+      <span>KP</span>
+    </a>
 
-  <div class="project-grid">
+    <button
+      class="hamburger"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
 
-    <!-- Project 1: Java Network Packet Analyzer -->
-    <article class="project">
-      <div class="project-art security">
-        <div class="flow">
-          <span>PCAP</span>
-          <i>→</i>
-          <span>PARSE</span>
-          <i>→</i>
-          <span>ANALYZE</span>
-          <i>→</i>
-          <span>FILTER</span>
-        </div>
-        <div class="shield">🌐</div>
-      </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-      <div class="project-info">
-        <span class="project-label">JAVA • NETWORKING</span>
+  </header>
 
-        <h3>Java Network Packet Analyzer</h3>
 
-        <p>
-          Developed a network packet analyzer from scratch using Java and
-          networking concepts. Implemented PCAP processing, IPv4, TCP/UDP
-          parsing, flow tracking, TLS SNI and HTTP Host extraction, and
-          application identification.
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-text">
+
+        <p class="mini">
+          JAVA • AWS • DEVOPS • CLOUD
         </p>
 
-        <div class="tags">
-          <span>Java 17</span>
-          <span>Networking</span>
-          <span>Maven</span>
-          <span>PCAP</span>
-          <span>TCP/UDP</span>
-          <span>JUnit</span>
-        </div>
+        <h1>
+          Hi, I'm <strong>Krishna Pawar</strong>
+        </h1>
 
-        <div class="project-actions">
+        <p class="subtitle">
+          Java Developer • DevOps & Cloud Enthusiast • AWS • Networking
+        </p>
+
+        <p class="intro">
+          Computer Engineering student with hands-on experience in Java
+          development, computer networking, AWS cloud infrastructure,
+          DevOps, CI/CD automation, and Linux. I enjoy building practical
+          solutions and learning modern technologies.
+        </p>
+
+        <div class="buttons">
+
           <a
-            href="https://github.com/Krishna2334/Deep_Packet_Analyzer"
-            target="_blank"
+            class="btn primary"
+            href="#contact"
           >
-            Source Code ↗
+            Contact Me
           </a>
-        </div>
-      </div>
-    </article>
 
-
-    <!-- Project 2: AWS Three-Tier Web Application -->
-    <article class="project">
-      <div class="project-art containers">
-        <div class="stack">
-          <span>USER</span>
-          <b>ALB</b>
-          <span>EC2</span>
-          <b>RDS</b>
-        </div>
-
-        <div class="docker-box">☁️</div>
-
-        <small>AWS Three-Tier Architecture</small>
-      </div>
-
-      <div class="project-info">
-        <span class="project-label">AWS • CLOUD</span>
-
-        <h3>AWS Three-Tier Web Application</h3>
-
-        <p>
-          Designed and deployed a scalable three-tier web application on AWS
-          using separate Web, Application, and Database layers. Implemented
-          load balancing, Auto Scaling, secure networking, and RDS MySQL
-          integration.
-        </p>
-
-        <div class="tags">
-          <span>AWS</span>
-          <span>EC2</span>
-          <span>ALB</span>
-          <span>Auto Scaling</span>
-          <span>RDS MySQL</span>
-          <span>Nginx</span>
-          <span>Node.js</span>
-        </div>
-
-        <div class="buttons"><a class="btn primary" href="#contact">Contact Me</a><a class="btn outline" href="aws-three-tier-documentation.pdf" download>View / Download AWS Project</a></div>
-      </div>
-    </article>
-
-
-    <!-- Project 3: DevSecOps CI/CD Pipeline -->
-    <article class="project">
-      <div class="project-art security">
-        <div class="flow">
-          <span>CODE</span>
-          <i>→</i>
-          <span>SCAN</span>
-          <i>→</i>
-          <span>BUILD</span>
-          <i>→</i>
-          <span>DEPLOY</span>
-        </div>
-
-        <div class="shield">🛡️</div>
-      </div>
-
-      <div class="project-info">
-        <span class="project-label">DEVSECOPS</span>
-
-        <h3>CI/CD Pipeline with Automated Security Scanning</h3>
-
-        <p>
-          Built a GitHub Actions CI/CD pipeline with automated security
-          scanning to identify source-code vulnerabilities, dependency
-          issues, and exposed secrets during the development lifecycle.
-        </p>
-
-        <div class="tags">
-          <span>GitHub Actions</span>
-          <span>Semgrep</span>
-          <span>npm audit</span>
-          <span>Gitleaks</span>
-          <span>CI/CD</span>
-        </div>
-
-        <div class="project-actions">
           <a
-            href="https://github.com/Krishna2334/Secure_CI_CD_KP/tree/main"
-            target="_blank"
+            class="btn outline"
+            href="Krishna_Pawar_Resume.pdf"
+            download
           >
-            Source Code ↗
+            View / Download Resume
           </a>
+
         </div>
+
+        <div class="links">
+
+          <a
+            href="https://github.com/Krishna2334"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/krishna-pawar-0115292b4/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a href="mailto:pawarkrishna2334@gmail.com">
+            Email ↗
+          </a>
+
+        </div>
+
       </div>
-    </article>
 
-  </div>
-</section>
 
-<section id="education" class="section">
-  <div class="section-head"><span>05</span><h2>Education</h2></div>
-  <div class="education">
-    <div class="edu"><div class="edu-dot"></div><div><span>Nov 2022 – Present</span><h3>BE Computer Engineering — CGPA 8.55</h3><p>JSPM’s Bhivarabai Sawant Institute of Technology & Research, Pune</p></div></div>
-    <div class="edu"><div class="edu-dot"></div><div><span>Jun 2020 – Apr 2022</span><h3>HSC Class XII — 80.33%</h3><p>Sri Chaitanya Junior College, Pune</p></div></div>
-    <div class="edu"><div class="edu-dot"></div><div><span>Jun 2015 – Mar 2020</span><h3>CBSE Class X — 79.40%</h3><p>Oxford English Medium School, Chopda, Jalgaon</p></div></div>
-  </div>
-</section>
+      <div class="hero-photo">
 
-<section id="certifications" class="section">
-  <div class="section-head"><span>06</span><h2>Certifications</h2></div>
-  <div class="cert-grid"><div><b>DevOps Internship</b><span>6 months · Skillected</span></div><div><b>Core Java</b><span>CodeForSuccess</span></div><div><b>HTML, CSS & JavaScript</b><span>Udemy</span></div><div><b>75+ LeetCode</b><span>Problems Solved</span></div></div>
-</section>
+        <div class="photo-ring"></div>
 
-<section id="contact" class="section contact">
-  <div class="section-head"><span>07</span><h2>Contact</h2></div>
-  <h3>Let's build something great.</h3><p>I'm open to DevOps, Cloud and software development opportunities.</p>
-  <div class="contact-grid"><a href="mailto:pawarkrishna2334@gmail.com">✉️ <span>Email<small>pawarkrishna2334@gmail.com</small></span></a><a href="tel:+917219588010">📞 <span>Phone<small>+91 72195 88010</small></span></a><div>📍 <span>Location<small>Pune, India</small></span></div></div>
-</section>
-</main>
-<footer>© <span id="year"></span> Krishna Pawar · DevOps & Cloud Portfolio</footer>
-<button id="top">↑</button>
-<script src="script.js"></script>
+        <img
+          src="krishna-pawar.jpg"
+          alt="Krishna Pawar"
+        >
+
+        <div class="photo-badge">
+
+          <span>☁</span>
+
+          <b>AWS</b>
+
+          <small>
+            Cloud & DevOps
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section about">
+
+      <div class="section-head">
+        <span>01</span>
+        <h2>About</h2>
+      </div>
+
+      <div class="about-box">
+
+        <div>
+
+          <h3>
+            Building, automating & learning.
+          </h3>
+
+          <p>
+            Computer Engineering student with hands-on experience in Java
+            development, computer networking, AWS cloud infrastructure,
+            DevOps, CI/CD pipelines, GitHub Actions and Linux.
+          </p>
+
+          <p>
+            I enjoy solving real-world technical problems, building
+            practical projects, improving deployment processes and
+            continuously learning modern software and cloud technologies.
+          </p>
+
+        </div>
+
+
+        <div class="about-points">
+
+          <div>
+            ⚙️
+            <b>Development</b>
+            <small>
+              Java, OOP, networking & problem solving
+            </small>
+          </div>
+
+          <div>
+            ☁️
+            <b>Cloud</b>
+            <small>
+              AWS infrastructure & services
+            </small>
+          </div>
+
+          <div>
+            🔁
+            <b>DevOps</b>
+            <small>
+              CI/CD, automation & deployment
+            </small>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="section">
+
+      <div class="section-head">
+        <span>02</span>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="experience-card">
+
+        <div class="exp-icon">
+          S
+        </div>
+
+        <div class="exp-main">
+
+          <div class="exp-title">
+
+            <h3>
+              DevOps Training Internship Trainee
+            </h3>
+
+            <span>
+              Oct 2025 – Mar 2026
+            </span>
+
+          </div>
+
+          <h4>
+            Skillected Edu Pvt. Ltd. · Pune
+          </h4>
+
+          <p>
+            Completed a 6-month training and internship with hands-on
+            exposure to DevOps fundamentals, Git version control,
+            CI/CD pipelines, cloud concepts, automation, build and
+            deployment workflows.
+          </p>
+
+          <div class="tags">
+
+            <span>Git</span>
+            <span>CI/CD</span>
+            <span>Cloud</span>
+            <span>Automation</span>
+            <span>DevOps</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+      <div class="section-head">
+        <span>03</span>
+        <h2>Skills</h2>
+      </div>
+
+
+      <div class="skill-layout">
+
+
+        <!-- Cloud & DevOps -->
+
+        <div class="skill-card">
+
+          <h3>
+            Cloud & DevOps
+          </h3>
+
+          <div class="skill-icons">
+
+            <div>
+              ☁️
+              <b>AWS</b>
+            </div>
+
+            <div>
+              🐳
+              <b>Docker</b>
+            </div>
+
+            <div>
+              ⚙️
+              <b>Kubernetes</b>
+            </div>
+
+            <div>
+              🏗️
+              <b>Terraform</b>
+            </div>
+
+            <div>
+              🔁
+              <b>GitHub Actions</b>
+            </div>
+
+            <div>
+              🐧
+              <b>Linux</b>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Programming -->
+
+        <div class="skill-card">
+
+          <h3>
+            Programming
+          </h3>
+
+          <div class="pill-list">
+
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>Bash</span>
+
+          </div>
+
+
+          <h3 class="second">
+            Web & Database
+          </h3>
+
+          <div class="pill-list">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>MySQL</span>
+            <span>Node.js</span>
+            <span>Nginx</span>
+
+          </div>
+
+        </div>
+
+
+        <!-- Core Knowledge -->
+
+        <div class="skill-card">
+
+          <h3>
+            Core Knowledge
+          </h3>
+
+          <div class="pill-list">
+
+            <span>OOP</span>
+            <span>DSA</span>
+            <span>Computer Networking</span>
+            <span>TCP/IP</span>
+            <span>DBMS</span>
+            <span>Operating System</span>
+
+          </div>
+
+          <div class="score">
+
+            <b>75+</b>
+
+            <span>
+              LeetCode Problems Solved
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+      <div class="section-head">
+        <span>04</span>
+        <h2>Projects</h2>
+      </div>
+
+
+      <div class="project-grid">
+
+
+        <!-- ================================================= -->
+        <!-- PROJECT 1 : JAVA NETWORK PACKET ANALYZER -->
+        <!-- ================================================= -->
+
+        <article class="project">
+
+          <div class="project-art security">
+
+            <div class="flow">
+
+              <span>PCAP</span>
+
+              <i>→</i>
+
+              <span>PARSE</span>
+
+              <i>→</i>
+
+              <span>ANALYZE</span>
+
+              <i>→</i>
+
+              <span>FILTER</span>
+
+            </div>
+
+            <div class="shield">
+              🌐
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <span class="project-label">
+              JAVA • NETWORKING
+            </span>
+
+            <h3>
+              Java Network Packet Analyzer
+            </h3>
+
+            <p>
+              Developed a Java-based network packet analyzer with PCAP
+              processing, IPv4 and TCP/UDP parsing, five-tuple flow
+              tracking, TLS SNI and HTTP Host extraction, application
+              identification, rule-based traffic filtering, and
+              multithreaded packet processing using ExecutorService.
+            </p>
+
+
+            <div class="tags">
+
+              <span>Java 17</span>
+              <span>Networking</span>
+              <span>PCAP</span>
+              <span>Maven</span>
+              <span>TCP/UDP</span>
+              <span>Multithreading</span>
+              <span>JUnit</span>
+
+            </div>
+
+
+            <div class="project-actions">
+
+              <a
+                href="https://github.com/Krishna2334/Deep_Packet_Analyzer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source Code ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ================================================= -->
+        <!-- PROJECT 2 : AWS THREE-TIER APPLICATION -->
+        <!-- ================================================= -->
+
+        <article class="project">
+
+          <div class="project-art containers">
+
+            <div class="stack">
+
+              <span>USER</span>
+
+              <b>ALB</b>
+
+              <span>EC2</span>
+
+              <b>RDS</b>
+
+            </div>
+
+
+            <div class="cloud-box">
+              ☁️
+            </div>
+
+
+            <small>
+              AWS Three-Tier Architecture
+            </small>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <span class="project-label">
+              AWS • CLOUD
+            </span>
+
+            <h3>
+              AWS Three-Tier Web Application
+            </h3>
+
+            <p>
+              Designed and deployed a scalable three-tier web application
+              on AWS using separate Web, Application, and Database layers.
+              Configured ALBs, Auto Scaling, health checks, secure VPC
+              networking, EC2, Nginx, Node.js, and Amazon RDS MySQL.
+            </p>
+
+
+            <div class="tags">
+
+              <span>AWS</span>
+              <span>EC2</span>
+              <span>ALB</span>
+              <span>Auto Scaling</span>
+              <span>RDS MySQL</span>
+              <span>Nginx</span>
+              <span>Node.js</span>
+
+            </div>
+
+
+            <div class="project-actions">
+
+              <a
+                href="aws-three-tier-documentation.pdf"
+                target="_blank"
+              >
+                Project Documentation ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ================================================= -->
+        <!-- PROJECT 3 : DEVSECOPS -->
+        <!-- ================================================= -->
+
+        <article class="project">
+
+          <div class="project-art security">
+
+            <div class="flow">
+
+              <span>CODE</span>
+
+              <i>→</i>
+
+              <span>SCAN</span>
+
+              <i>→</i>
+
+              <span>BUILD</span>
+
+              <i>→</i>
+
+              <span>DEPLOY</span>
+
+            </div>
+
+
+            <div class="shield">
+              🛡️
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <span class="project-label">
+              DEVSECOPS
+            </span>
+
+            <h3>
+              CI/CD Pipeline with Automated Security Scanning
+            </h3>
+
+            <p>
+              Built a GitHub Actions CI/CD pipeline with automated security
+              checks using Semgrep, npm audit, and Gitleaks to detect
+              source-code vulnerabilities, dependency issues, and exposed
+              secrets during the development lifecycle.
+            </p>
+
+
+            <div class="tags">
+
+              <span>GitHub Actions</span>
+              <span>Semgrep</span>
+              <span>npm audit</span>
+              <span>Gitleaks</span>
+              <span>CI/CD</span>
+
+            </div>
+
+
+            <div class="project-actions">
+
+              <a
+                href="https://github.com/Krishna2334/Secure_CI_CD_KP/tree/main"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source Code ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
+
+      <div class="section-head">
+        <span>05</span>
+        <h2>Education</h2>
+      </div>
+
+
+      <div class="education">
+
+
+        <div class="edu">
+
+          <div class="edu-dot"></div>
+
+          <div>
+
+            <span>
+              Nov 2022 – Present
+            </span>
+
+            <h3>
+              BE Computer Engineering — CGPA 8.55
+            </h3>
+
+            <p>
+              JSPM’s Bhivarabai Sawant Institute of Technology &
+              Research, Pune
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="edu">
+
+          <div class="edu-dot"></div>
+
+          <div>
+
+            <span>
+              Jun 2020 – Apr 2022
+            </span>
+
+            <h3>
+              HSC Class XII — 80.33%
+            </h3>
+
+            <p>
+              Sri Chaitanya Junior College, Pune
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="edu">
+
+          <div class="edu-dot"></div>
+
+          <div>
+
+            <span>
+              Jun 2015 – Mar 2020
+            </span>
+
+            <h3>
+              CBSE Class X — 79.40%
+            </h3>
+
+            <p>
+              Oxford English Medium School, Chopda, Jalgaon
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section id="certifications" class="section">
+
+      <div class="section-head">
+        <span>06</span>
+        <h2>Certifications</h2>
+      </div>
+
+
+      <div class="cert-grid">
+
+        <div>
+
+          <b>
+            DevOps Internship
+          </b>
+
+          <span>
+            6 months · Skillected
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <b>
+            Core Java
+          </b>
+
+          <span>
+            CodeForSuccess
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <b>
+            HTML, CSS & JavaScript
+          </b>
+
+          <span>
+            Udemy
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <b>
+            75+ LeetCode
+          </b>
+
+          <span>
+            Problems Solved
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact">
+
+      <div class="section-head">
+        <span>07</span>
+        <h2>Contact</h2>
+      </div>
+
+
+      <h3>
+        Let's build something great.
+      </h3>
+
+      <p>
+        I'm open to Java, DevOps, Cloud and software development
+        opportunities.
+      </p>
+
+
+      <div class="contact-grid">
+
+
+        <a href="mailto:pawarkrishna2334@gmail.com">
+
+          ✉️
+
+          <span>
+
+            Email
+
+            <small>
+              pawarkrishna2334@gmail.com
+            </small>
+
+          </span>
+
+        </a>
+
+
+        <a href="tel:+917219588010">
+
+          📞
+
+          <span>
+
+            Phone
+
+            <small>
+              +91 72195 88010
+            </small>
+
+          </span>
+
+        </a>
+
+
+        <div>
+
+          📍
+
+          <span>
+
+            Location
+
+            <small>
+              Pune, India
+            </small>
+
+          </span>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    ©
+    <span id="year"></span>
+    Krishna Pawar · Java • AWS • DevOps Portfolio
+
+  </footer>
+
+
+  <!-- Back to top -->
+  <button
+    id="top"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
 </body>
 </html>
